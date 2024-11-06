@@ -12,7 +12,7 @@ export default function EstimateSection() {
             className="mt-4 py-2 px-4 text-sm text-white gradient element-to-rotate hover:opacity-90"
             onClick={() => navigate("/contact")}
         >
-            Get a Free EstimateSection
+            Get a Free Estimate
         </Button>
     </div>
   )

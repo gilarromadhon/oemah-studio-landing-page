@@ -17,7 +17,7 @@ export default function About() {
         />
 
         <div 
-            className="relative flex flex-col bg-cover bg-center bg-fixed min-h-[400px] lg:min-h-[800px] bg-no-repeat items-start justify-center px-16"
+            className="relative flex flex-col bg-cover bg-center bg-local md:bg-fixedmin-h-[400px] lg:min-h-[800px] bg-no-repeat items-start justify-center px-16"
             style={{
                 backgroundImage: `url(${BannerPotrait})`,
             }}

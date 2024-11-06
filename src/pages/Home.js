@@ -38,7 +38,7 @@ export default function Home() {
     <div>
         <div className="px-8 md:px-16">
             <div 
-                className="relative flex flex-col bg-cover bg-center bg-fixed aspect-square md:aspect-auto md:min-h-[800px] bg-no-repeat items-center md:items-start justify-center px-16"
+                className="relative flex flex-col bg-cover bg-center bg-local md:bg-fixedaspect-square md:aspect-auto md:min-h-[800px] bg-no-repeat items-center md:items-start justify-center px-16"
                 style={{
                     backgroundImage: `url(${BannerLandscape})`,
                 }}
@@ -50,7 +50,7 @@ export default function Home() {
                         className="mt-8 md:mt-16 py-2 px-4 text-sm text-white gradient element-to-rotate hover:opacity-90"
                         onClick={() => navigate("/contact")}
                     >
-                        Get a Free EstimateSection
+                        Get a Free Estimate
                     </Button>
                 </div>
             </div>
@@ -58,7 +58,7 @@ export default function Home() {
 
         <div className="mt-16 px-8 md:px-16 flex flex-col-reverse md:flex-row gap-y-8">
             <div
-                className="bg-cover bg-right bg-fixed min-h-[400px] md:min-h-[800px] w-full bg-no-repeat"
+                className="bg-cover bg-right bg-local md:bg-fixedmin-h-[400px] md:min-h-[800px] w-full bg-no-repeat"
                 style={{ backgroundImage: `url(${BannerPotrait})` }}
             >
             </div>
